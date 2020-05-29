@@ -1,0 +1,36 @@
+.imgcenter{
+    background-image: url('/img/pagina.jpeg');
+    background-repeat: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+    min-height: 700px;
+    color: white;
+}
+
+.formulario{
+    background: rgba(223, 206, 206, 0.7);
+    padding: 20px;
+    height: 500px;
+    width: 540px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, -0, -0, 0.568);
+    color: rgb(145, 98, 98);
+}
+
+.ingresar{
+     background: rgb(8, 52, 71);
+     border-radius: 5px;
+     color: white;
+     box-shadow: 0 0 30px rgba(0, -0, -0, 0.568);
+     transition: 0.5s ease-in;
+}
+
+.ingresar:hover{
+    color: white;
+}
+
+h3{
+    color: black;
+}
+
