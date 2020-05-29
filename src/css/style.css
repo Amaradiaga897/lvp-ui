@@ -1,0 +1,225 @@
+
+h1{
+    font-size: 66px;
+    font-weight: 600px;
+    line-height: 80px;
+}
+
+h2{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.tamaño{
+    font-size: 30px;
+    font-weight: 100px;
+    text-align: justify;
+    opacity: none;
+}
+
+.tamaño1{
+    font-size: 20px;
+    font-weight: 100px;
+    text-align: justify;
+    opacity: none;
+}
+
+.topmargin-xs{margin-top: 15px;}
+.topmargin-sm{margin-top: 30px;}
+.topmargin-lg{margin-top: 60px;}
+
+
+.color{
+    background-color: rgb(2, 126, 37);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    box-sizing:  0 2px 4px rgba(0, 0, 0, .5);
+}
+
+.texto{
+    color: rgb(250, 252, 253);
+}
+
+
+.btn-light{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(247, 241, 241);
+}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: medium;
+    
+}
+
+.btn-i{
+    font-size: 20px;
+    margin-left: 5px;
+    
+
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: rgb(12, 74, 112);
+    font-size: 23px;
+}
+.nav-link:hover{
+    color: rgb(77, 229, 47);
+}
+
+.logo{
+    min-width: 80px;
+    max-height: 100px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+
+.navbar-toggler:focus{
+    outline-style: none;
+}
+
+#hero{
+    background-image: url('/img/pagina.jpeg');
+    background-size: cover;
+    padding-top: 100px;
+    min-height: 600px;
+    color: white;
+    
+}
+
+.content-center{
+    margin: 30px;
+    padding-top: 20px;
+    text-align: center;;
+}
+
+.btnm{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.div1{
+    margin: 10px;
+    padding: 100px;
+}
+
+/*comenzaomos a poner imagenes y editar su posicion*/
+
+.separar{
+    padding: 0px 5px px 100px;
+}
+
+.marg{
+    margin: 20px;
+    padding: 10px;
+}
+
+.carucel{
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carucel p{
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+}
+
+.rating{
+    color: rgb(247, 193, 18);
+    font-size: 26px;
+}
+
+footer {
+    padding: 80px 0;
+    text-align: center;
+    color: var(--white-color);
+}
+
+footer a {
+    color: var(--white-color);
+}
+
+footer a:hover {
+    color: var(--white-color);
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+
+@media (max-width: 575.98px) {
+    h1{font-size: 40px; line-height: normal;}
+}
+
+/*
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+*/
+
+/*comienza el codigo de administrador*/
+
+
+  
+.colorear{
+  background-color: rgb(247, 155, 9);;
+  color:rgb(231, 235, 238);
+}
+
+.text-color{
+color: rgb(28, 28, 29);
+}
+
+.large{
+font-size: 70px;
+color: rgb(247, 155, 9);
+}
+
+.tamaño3{
+padding-left: 170px;
+font-size: 5px;
+font-weight: 100px;
+text-align: justify;
+}
+.icon{
+  font-size: 25px;
+}
+
+.cambia{
+color: white;
+}
+
+
+.foot{
+background-color: rgb(201, 128, 11);
+height: 50px;
+}
+
+.hi{
+padding: 10px;
+margin: 10px;
+}
+
+/*fin el codigo de administrador*/
